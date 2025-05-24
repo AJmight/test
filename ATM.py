@@ -20,6 +20,7 @@ def display_inventory():
             print(f"{i}. {item}")
     else:
         print("Inventory is empty.")
+        print("You can add items to the inventory.")
 
 while True:
     display_inventory()
