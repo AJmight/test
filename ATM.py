@@ -9,10 +9,11 @@
 # else:
 #     balance -= withdrawal_amount
 #     print(f"Withdrawal successful. New balance: {balance}")
+
+
 # Initial inventory
 #create inventory management program. use loops statement to update /display a list of stock items 
 # inventory = ["Bread", "Milk", "Eggs", "Soap"]
-
 # def display_inventory():
 #     print("\nCurrent Inventory:")
 #     if inventory:
@@ -64,13 +65,10 @@
 #     elif choice == "4":
 #         print("Exiting Inventory Manager.")
 #         break
-
 #     else:
 #         print("Invalid choice. Please select between 1 and 4.")
 
-# find factorial of a number using recursion of 5
-
-    
+# find factorial of a number using recursion of 5    
 def factorial(n):
     if n == 0 or n == 1:
         return 1

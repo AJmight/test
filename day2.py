@@ -35,6 +35,8 @@ while True:
         print("Invalid input. Please enter valid numbers.")
     except TypeError:
         print("Invalid type. Please enter numbers.")
+    finally:
+        print("Hope it worked out well!")
 
           
-    
+  
